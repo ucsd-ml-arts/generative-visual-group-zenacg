@@ -34,7 +34,30 @@ Your code for generating your project:
 Documentation of your results in an appropriate format, both links to files and a brief description of their contents:
 - image files (`.jpg`, `.png` or whatever else is appropriate)
   * Following we have presented some of our results in the order of the number of the parameter EPOCH
-..- EPOCH = 34
+   * EPOCH = 34
+     ![34_0](Images/34_2.jpg)
+     ![34_1](Images/34_77000.jpg)
+   * EPOCH = 75
+     ![75_0](Images/75_2.jpg)
+     ![75_1](Images/75_1667055.jpg)
+   * EPOCH = 76   
+     ![76_0](Images/76_168100.jpg)
+     ![76_1](Images/76_168650.jpg) 
+     ![76_2](Images/76_169550.jpg)
+     ![76_3](Images/76_169650.jpg)      
+   * EPOCH = 79
+     ![79](Images/77_79.jpg)         
+   * EPOCH = 81
+     ![81](Images/81.jpg)     
+   * EPOCH = 86
+     ![86](Images/86.jpg)        
+   * EPOCH = 120
+     ![120_266700](Images/120_266700.jpg)           
+     ![120](Images/120.jpg)              
+   * EPOCH = 122
+     ![122](Images/122.jpg)
+   * EPOCH = 123
+     ![123](Images/123.jpg)   
 
 ## Technical Notes
 

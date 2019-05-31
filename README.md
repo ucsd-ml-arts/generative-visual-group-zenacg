@@ -43,7 +43,7 @@ Documentation of your results in an appropriate format, both links to files and 
   * EPOCH = 76   
   Since the program is still learning, it's possible that it would generate some new species. For example, a dog-like creature with long long beard.
     ![76_0](Images/76_168100.jpg)
-    ![76_1](Images/76_168650.jpg) 
+    ![76_1](Images/76_168650.jpg)    
   To match the shape of the faces, most of the results are able to keep the animals' lop or erect ears.
     ![76_2](Images/76_169550.jpg)
     ![76_3](Images/76_169650.jpg)      
@@ -60,7 +60,7 @@ Documentation of your results in an appropriate format, both links to files and 
   Seems that it's possible that a beagle and a woman share taste in clothes.
     ![120_266700](Images/120_266700.jpg)           
     ![120](Images/120.png)              
-  * EPOCH = 122 
+  * EPOCH = 122    
   Last but not the least, a chill male lion turns out to be a painting-like male human.
     ![122](Images/122.jpg)
 

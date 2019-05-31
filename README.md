@@ -14,15 +14,15 @@ Since the animal faces data set contains wide diversity of animal species, some 
 
 Briefly describe the files that are included with your repository:
 - training data (or link to training data)
-..- [Face matching data set] (https://cyberextruder.com/face-matching-data-set-download/)
-...- The data set contains 10,205 images of 1000 people scraped from the internet. 
-...- All images have size 600 x 600 pixels and are stored with jpeg compression.
+  * ![Face matching data set] (https://cyberextruder.com/face-matching-data-set-download/)
+    * The data set contains 10,205 images of 1000 people scraped from the internet. 
+    * All images have size 600 x 600 pixels and are stored with jpeg compression.
 
-..- [Animal faces data set] (http://www.stat.ucla.edu/~zzsi/HiT/exp5.html)
-...- The data set contains 2461 images of 20 different species of animals. 
+  * ![Animal faces data set] (http://www.stat.ucla.edu/~zzsi/HiT/exp5.html)
+    * The data set contains 2461 images of 20 different species of animals. 
 
-..- [Cat data set] (https://www.kaggle.com/crawford/cat-dataset/downloads/cat-dataset.zip/2)
-...-  The data set contains over 9,000 cat images.
+  * ![Cat data set] (https://www.kaggle.com/crawford/cat-dataset/downloads/cat-dataset.zip/2)
+    * The data set contains over 9,000 cat images.
 
 ## Code
 
@@ -33,7 +33,7 @@ Your code for generating your project:
 
 Documentation of your results in an appropriate format, both links to files and a brief description of their contents:
 - image files (`.jpg`, `.png` or whatever else is appropriate)
-.- Following we have presented some of our results in the order of the number of the parameter EPOCH
+  * Following we have presented some of our results in the order of the number of the parameter EPOCH
 ..- EPOCH = 34
 
 ## Technical Notes
@@ -46,11 +46,11 @@ Any implementation details or notes we need to repeat your work.
 
 References to any papers, techniques, repositories you used:
 - Papers
-..- [CycleGAN with Better Cycles] (https://ssnl.github.io/better_cycles/report.pdf)
+  * ![CycleGAN with Better Cycles] (https://ssnl.github.io/better_cycles/report.pdf)
 
 - Repositories
-..- [pytorch-CycleGAN-and-pix2pix] (https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix)
+  * ![pytorch-CycleGAN-and-pix2pix] (https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix)
 
 - Blog posts
-..- [Understanding and Implementing CycleGAN in TensorFlow] (https://hardikbansal.github.io/CycleGANBlog/)
-..- [Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks] (https://junyanz.github.io/CycleGAN/)
+  * ![Understanding and Implementing CycleGAN in TensorFlow] (https://hardikbansal.github.io/CycleGANBlog/)
+  * ![Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks] (https://junyanz.github.io/CycleGAN/)

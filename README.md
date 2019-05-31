@@ -4,8 +4,6 @@ Yunchieh Chang, cyunchie@ucsd.edu
 
 ## Abstract
 
-Include your abstract here. This should be one paragraph clearly describing your concept, method, and results. This should tell us what architecture/approach you used. Also describe your creative goals, and whether you were successful in achieving them. Also could describe future directions.
-
 In this project, we use a CycleGAN to learn to translate an image from a source domain, a face matching data set to a target domain, the animal faces data set in the absence of paired examples. It contains a generator network and a discriminator network beating each other while the generator takes a picture from the face matching data set tries to generate a realistic animal face image to trick the discriminator. Similarly, there's also another generator generate images in reverse direction to beat with the discriminator, which completes the so-called "Cycle"GAN.
 
 Since the animal faces data set contains wide diversity of animal species, some of the results barely make sense and look vaguely. Therefore, an experiment of training a network to translate human faces to a certain kind of species, say, cat, is a future work direction. More details about our work is discussed in Section "Results".
@@ -46,33 +44,31 @@ Documentation of your results in an appropriate format, both links to files and 
   Since the program is still learning, it's possible that it would generate some new species. For example, a dog-like creature with long long beard.
     ![76_0](Images/76_168100.jpg)
     ![76_1](Images/76_168650.jpg) 
-    To match the shape of the faces, most of the results are able to keep the animals' lop or erect ears.
+  To match the shape of the faces, most of the results are able to keep the animals' lop or erect ears.
     ![76_2](Images/76_169550.jpg)
     ![76_3](Images/76_169650.jpg)      
   * EPOCH = 79   
   The program even tries to imitate a flirtatious facial expression althought the result looks angry.
     ![79](Images/77_79.jpg)         
   * EPOCH = 81   
-  Before we have seen some results of transforming a male line to a woman. For now, the lion could keep the hair style, bang when transformed from a human
+  Before we have seen some results of transforming a male line to a woman. For now, the lion could keep the hair style, bang when transformed from a human.
     ![81](Images/81.jpg)     
   * EPOCH = 86  
   A polar bear's mounth turns out to be a man's beard.
     ![86](Images/86.jpg)        
   * EPOCH = 120  
-  Seems that it's possible that a beagle and a woman share taste in clothes
+  Seems that it's possible that a beagle and a woman share taste in clothes.
     ![120_266700](Images/120_266700.jpg)           
     ![120](Images/120.png)              
   * EPOCH = 122 
-  
+  Last but not the least, a chill male lion turns out to be a painting-like male human.
     ![122](Images/122.jpg)
-  * EPOCH = 123   
-    ![123](Images/123.jpg)   
 
 ## Technical Notes
 
 Any implementation details or notes we need to repeat your work. 
-- Does this code require other pip packages, software, etc?
-- Does it run on some other (non-datahub) platform? (CoLab, etc.)
+- The program is iteratively trained with EPOCH = 120, and takes around 14 hours to run. 
+- Images are resized into 128x128 due to the runtime limitation.
 
 ## Reference
 
